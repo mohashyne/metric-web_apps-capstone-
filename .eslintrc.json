@@ -2,47 +2,34 @@
   "env": {
     "browser": true,
     "es6": true,
-    "jest": true,
-    "node": true
+    "jest": true
   },
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2022,
+    "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:react/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:react-hooks/recommended"
-  ],
-  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
+  "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+  "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
-    "react/react-in-jsx-scope": 0,
-    "import/no-unresolved": 0,
-    "no-shadow": 0,
-    "react/prop-types": 0
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "off",
+    "no-shadow": "off"
   },
   "overrides": [
     {
+       // feel free to replace with your preferred file pattern - eg. 'src/**/*Slice.js' or 'redux/**/*Slice.js'
       "files": ["src/**/*Slice.js"],
+      // avoid state param assignment
       "rules": { "no-param-reassign": ["error", { "props": false }] }
     }
   ],
-  "ignorePatterns": ["dist/", "build/"],
-  "settings": {
-    "react": {
-      "version": "detect"
-    },
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx"]
-      }
-    }
-  }
+  "ignorePatterns": [
+    "dist/",
+    "build/"
+  ]
 }
