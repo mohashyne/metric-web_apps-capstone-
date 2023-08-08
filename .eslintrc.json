@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
+  "rules": {
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": 0,
+    "import/no-unresolved": 0,
+    "no-shadow": 0,
+    "react/prop-types": 0
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*Slice.js"],
+      "rules": { "no-param-reassign": ["error", { "props": false }] }
+    }
+  ],
+  "ignorePatterns": ["dist/", "build/"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  }
+}
