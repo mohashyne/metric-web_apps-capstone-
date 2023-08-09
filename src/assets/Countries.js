@@ -1,32 +1,32 @@
-import can from './maps/Canada.png';
-import jam from './maps/Jamica.png';
-import mex from './maps/Mexico.png';
-import usa from './maps/USA.png';
+import southAfrica from './maps/SouthAfrica.png';
+import egypt from './maps/Egypt.png';
+import nigeria from './maps/Nigeria.png';
+import kenya from './maps/Kenya.png';
 
 const countries = [
   {
-    continent: 'North America',
-    name: 'Canada',
-    map: can,
-    cities: ['Ottawa', 'Victoria', 'Toronto'],
+    continent: 'Africa',
+    name: 'South Africa',
+    map: southAfrica,
+    cities: ['Cape Town', 'Johannesburg', 'Durban'],
   },
   {
-    continent: 'North America',
-    name: 'Jamaica',
-    map: jam,
-    cities: ['Kingstone', 'Portmore', 'Montego Bay'],
+    continent: 'Africa',
+    name: 'Egypt',
+    map: egypt,
+    cities: ['Cairo', 'Alexandria', 'Luxor'],
   },
   {
-    continent: 'North America',
-    name: 'Mexico',
-    map: mex,
-    cities: ['Mexico City', 'Tijuana', 'Acapulco'],
+    continent: 'Africa',
+    name: 'Nigeria',
+    map: nigeria,
+    cities: ['Lagos', 'Abuja', 'Kano'],
   },
   {
-    continent: 'North America',
-    name: 'United States of Amerca',
-    map: usa,
-    cities: ['New York', 'Washington', 'Atlanta'],
+    continent: 'Africa',
+    name: 'Kenya',
+    map: kenya,
+    cities: ['Nairobi', 'Mombasa', 'Kisumu'],
   },
 ];
 

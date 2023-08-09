@@ -1,5 +1,5 @@
 <div align="center">
- <img src="./src/assets/react.svg" alt="logo" width="140"  height="auto" />
+ <img src="./src/assets/maps/worldmap.png" alt="logo" width="140"  height="auto" />
   <h3><b>metric-web_apps</b></h3>
 </div>
 
