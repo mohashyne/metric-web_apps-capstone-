@@ -7,7 +7,7 @@ const Hero = ({ title, searchTerm, setSearchTerm }) => {
     return (
       <div className="hero">
         <h2>
-          Air Quality Index
+          Air Pollution Index
           <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </h2>
       </div>
@@ -16,7 +16,7 @@ const Hero = ({ title, searchTerm, setSearchTerm }) => {
   return (
     <div className="hero">
       <h2>
-        Air Quality Index
+        Air Pollution Index
         <br />
         <br />
         {title}
