@@ -9,6 +9,7 @@
     - [🛠 Built With](#built-with)
         - [Tech Stack](#tech-stack)
         - [Key Features](#key-features)
+         - [🚀 Live Demo](#live-demo)
          - [🚀 Live Video](#live-video)
 - [💻 Getting Started](#getting-started)
     - [Setup](#setup)
@@ -63,6 +64,9 @@
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p>For Live demo click
+<a href="https://mohashyne.github.io/metric-web_apps-capstone-/"> here </a></p>
 
 
 ## 🚀 Live Video <a name="live-video"></a>
