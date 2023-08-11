@@ -141,7 +141,7 @@ launch index.html using live server or live preview
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/mohashyne/metric-web_apps-capstone/issues">issues page</a>.
+Feel free to check the <a href="https://github.com/mohashyne/metric-web_apps-capstone-/issues">issues page</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +153,9 @@ If you like this project Please Rate IT!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to acknowledge Mosh Hamedani for his great course on JavaScript.
+I would like to thank my colleagues at Microverse for their support during the project.
+Original design idea by <a href="https://www.behance.net/sakwadesignstudio">Nelson Sakwa on Behance.</a>
+Used as per the <a href="https://creativecommons.org/licenses/by-nc/4.0/Creative"> Commons license of the design </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
