@@ -14,6 +14,8 @@ const initialState = {
     PM2_5: { concentration: '', aqi: '' },
     PM10: { concentration: '', aqi: '' },
   },
+  countriesAirQuality: {},
+  status: 'idle',
 };
 
 export const fetchAirQuality = createAsyncThunk(
@@ -26,6 +28,16 @@ export const fetchAirQuality = createAsyncThunk(
   },
 );
 
+export const fetchAirQualityC = createAsyncThunk(
+  'airQuality/fetchAirQualityC',
+  async (country) => {
+    const response = await axios.get(`https://api.api-ninjas.com/v1/airquality?city=${country}`, {
+      headers: { 'X-Api-Key': 'uLWr6B6XskNnt1fdEm7cwA==ahtDaYsuFaZtbYcg' },
+    });
+    return { country, data: response.data };
+  },
+);
+
 const aqSlice = createSlice({
   name: 'airQuality',
   initialState,
@@ -35,9 +47,17 @@ const aqSlice = createSlice({
     },
   },
   extraReducers: (builder) => {
-    builder.addCase(fetchAirQuality.fulfilled, (state, action) => {
-      state.airquality = action.payload;
-    });
+    builder
+      .addCase(fetchAirQuality.fulfilled, (state, action) => {
+        state.airquality = action.payload;
+        state.status = 'completed';
+      })
+      .addCase(fetchAirQuality.pending, (state) => {
+        state.status = 'loading';
+      })
+      .addCase(fetchAirQualityC.fulfilled, (state, action) => {
+        state.countriesAirQuality[action.payload.country] = action.payload.data;
+      });
   },
 });
 
