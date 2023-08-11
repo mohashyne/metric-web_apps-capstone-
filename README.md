@@ -9,7 +9,6 @@
     - [🛠 Built With](#built-with)
         - [Tech Stack](#tech-stack)
         - [Key Features](#key-features)
-         - [🚀 Live Video](#live-video)
 - [💻 Getting Started](#getting-started)
     - [Setup](#setup)
     - [Prerequisites](#prerequisites)
@@ -63,12 +62,6 @@
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 🚀 Live Video <a name="live-video"></a>
-
-<p>For Live video presentation click
-<a href="https://www.loom.com/share/29a54da429814442bb0f81b40bd57d44?sid=231c5f4f-feee-4e69-a1c2-19f5d7e4e482"> here </a></p>
 
 
 
