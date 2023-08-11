@@ -1,30 +1,24 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useState, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Country from '../components/Countries';
+import { fetchAirQualityC } from '../redux/AQSlice';
 
 const Home = () => {
+  const [searchTerm, setSearchTerm] = useState('');
   const countries = useSelector((state) => state.airQuality.countries);
-  return (
-    <>
-      <div className="App">
-        <Header previous=" " />
-        <Hero />
-        <div className="countries">
-          { countries.map((country) => (
-            <Country
-              key={country.name}
-              number={country.cities.length}
-              name={country.name}
-              vector={country.map}
-              cities={country.cities}
-            />
-          ))}
-        </div>
-      </div>
-    </>
-  );
-};
+  const dispatch = useDispatch();
 
+  useEffect(() => {
+    countries.forEach((country) => {
+      dispatch(fetchAirQualityC(country.name));
+    });
+  }, [dispatch, countries]);
+
+  const filteredCountries = countries.filter(
+    (country) => country.name.toLowerCase().includes(searchTerm.toLowerCase()),
+  );
+
+  
 export default Home;
