@@ -7,7 +7,6 @@ import City from '../components/City';
 
 const Cities = ({ country }) => {
   const cities = useSelector((state) => state.airQuality.cities);
-  console.log(country);
   return (
     <>
       <Header previous="/" heading="Cities" />

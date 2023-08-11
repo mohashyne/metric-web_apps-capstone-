@@ -31,8 +31,6 @@ const Country = ({
   }, [dispatch, name]);
 
   const airquality = useSelector((state) => state.airQuality.countriesAirQuality[name]);
-  console.log(vector);
-  // console.log(airquality.overall_aqi);
   return (
     <Link to="/cities" onClick={handleClick} className="country-wrapper" style={{ textDecoration: 'none', color: 'white' }}>
       <CountryDiv vector={vector} isOdd={isOdd} className="country">

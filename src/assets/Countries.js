@@ -26,7 +26,6 @@ import den from './maps/Denmark.png';
 import ita from './maps/Italy.png';
 import por from './maps/Portugal.png';
 
-
 const countries = [
   {
     continent: 'Africa',
