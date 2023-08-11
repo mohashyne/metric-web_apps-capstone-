@@ -128,7 +128,7 @@ launch index.html using live server or live preview
 
 - GitHub: [@mohashyne](https://github.com/mohashyne)
 - Twitter: [@muhammadslyhu](https://twitter.com/muhammadsalyhu)
-- LinkedIn: [muhammad-salihu-27467a165](https://linkedin.com/in/muhammad-salihu-27467a165)
+- LinkedIn: [muhammad-salihu-27467a165](https://linkedin.com/in/msalyhu)
 
 
 ## 🔭 Future Features <a name="future-features"></a>
