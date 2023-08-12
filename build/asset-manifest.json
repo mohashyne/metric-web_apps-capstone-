@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a34fd87.css",
+    "main.js": "/static/js/main.bec15214.js",
+    "static/media/worldmap.png": "/static/media/worldmap.535c0309e50d6baa56dd.png",
+    "static/media/Canada.png": "/static/media/Canada.6842174755821bd386c3.png",
+    "static/media/USA.png": "/static/media/USA.0a0ff4e841df4520195c.png",
+    "static/media/Denmark.png": "/static/media/Denmark.d21ce4703771c76f8319.png",
+    "static/media/Mexico.png": "/static/media/Mexico.172b3eb15e9184583841.png",
+    "static/media/Australia.png": "/static/media/Australia.452619268ca41780b748.png",
+    "static/media/Brazil.png": "/static/media/Brazil.d74e2f242a48703ca8ce.png",
+    "static/media/China.png": "/static/media/China.89796a45c132b90ee53f.png",
+    "static/media/India.png": "/static/media/India.32208d1dfedc6ac3b92a.png",
+    "static/media/Nigeria.png": "/static/media/Nigeria.32208d1dfedc6ac3b92a.png",
+    "static/media/Italy.png": "/static/media/Italy.856b2583a2e5f363784c.png",
+    "static/media/UAE.png": "/static/media/UAE.d423b045b3161578467a.png",
+    "static/media/Belgium.png": "/static/media/Belgium.5d2e7c5130fffdac84ce.png",
+    "static/media/New Zealand.png": "/static/media/New Zealand.5c5a980591adf4688b1f.png",
+    "static/media/Kenya.png": "/static/media/Kenya.ae0e56c3e7b7b05cc9b7.png",
+    "static/media/Cameroon.png": "/static/media/Cameroon.429fe67f262ac8b141f6.png",
+    "static/media/Egypt.png": "/static/media/Egypt.429fe67f262ac8b141f6.png",
+    "static/media/Ethiopia.png": "/static/media/Ethiopia.241ecc7a0e732d49860d.png",
+    "static/media/Yemen.png": "/static/media/Yemen.87b5afde69dd010fef5c.png",
+    "static/media/Ecuador.png": "/static/media/Ecuador.84f427cfdeb800957710.png",
+    "static/media/SouthAfrica.png": "/static/media/SouthAfrica.eb42dbd04b9b2162bf06.png",
+    "static/media/Uruguay.png": "/static/media/Uruguay.eb42dbd04b9b2162bf06.png",
+    "static/media/Argentina.png": "/static/media/Argentina.5904b4a41d052b981598.png",
+    "static/media/Tunisia.png": "/static/media/Tunisia.ba58f2b9034bc4e306db.png",
+    "static/media/Jamica.png": "/static/media/Jamica.ea284d5bed54177b8834.png",
+    "static/media/Samoa.png": "/static/media/Samoa.f7a104ff666e3687385c.png",
+    "static/media/Fiji.png": "/static/media/Fiji.f0d1a8e5660fcb5f61c3.png",
+    "static/media/Portugal.png": "/static/media/Portugal.16aff675c90147ac00c7.png",
+    "index.html": "/index.html",
+    "main.8a34fd87.css.map": "/static/css/main.8a34fd87.css.map",
+    "main.bec15214.js.map": "/static/js/main.bec15214.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a34fd87.css",
+    "static/js/main.bec15214.js"
+  ]
+}
